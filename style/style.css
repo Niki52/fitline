@@ -1,0 +1,972 @@
+@font-face {
+    font-family: "Manrope";
+    src: url(../fonts/Manrope-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url(../fonts/Manrope-Regular.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url(../fonts/Manrope-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+body{
+    background-color: #dae4ec;
+}
+header .container .verch .svg svg{
+    background: white;
+    padding: 10px;
+    border-radius: 100px;
+    display: inline-block;
+    margin-left: 15px;
+    transition: 1s;
+}
+header .container .verch .svg svg:hover{
+    background-color: #3586ff;
+    box-shadow: #ffffffd3 0 0 20px;
+    transition: .5s;
+}
+header .container .verch .golova a{
+    color: #07172e;
+    font-size: 14px;
+    margin-left: 15px;
+    transition: 1s;
+    border-radius: 100px;
+    padding: 5px;
+    font-weight: 900;
+}
+header .container .verch .golova a:hover{
+    background-color: #3586ff;
+    box-shadow: #ffffffd3 0 0 20px;
+    transition: .5s;
+}
+
+header .container .verch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+body .container .fitnes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+body .container .fitnes .text{
+    padding-top: 50px;
+    color: #07172e;
+}
+body .container .fitnes .text h1{
+    font-size: 52px;
+}
+body .container .fitnes .text p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+body .container .fitnes .text .btn{
+    margin-top: 50px;
+    padding: 3px;
+    width: 254px;
+    outline: 1px solid #3586ff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+body .container .fitnes .text .btn button{
+    font-size: 16px;
+    color: white;
+    background-color: #3586ff;
+    padding: 20px 72px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: 1px solid #3586ff;
+    transition: .5s;
+}
+body .container .fitnes .text .btn button:hover{
+    background-color: #0066ff;
+    box-shadow: 0 0 30px #00e1ffc9;
+    transition: .3s;
+}
+
+body .container .vibor_kyrs{
+    margin-top: 150px;
+}
+body .container .vibor_kyrs .kartochki{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+body .container .vibor_kyrs h1{
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    color: #07172e;
+    font-weight: 900;
+}
+body .container .vibor_kyrs .kartochki .kartoshka{
+    padding: 10px 70px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+body .container .vibor_kyrs .kartochki .kartoshka p{
+    font-size: 22px;
+    color: #07172e;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+body .container .vibor_kyrs .kartochki .kartoshka:hover{
+    box-shadow: 0 0 30px #00e1ffc9;
+    transition: .3s;
+}
+body .container .vibor_kyrs .baton{
+    display: flex;
+    justify-content: center;
+}
+body .container .vibor_kyrs .baton .buton{
+    margin-top: 50px;
+    padding: 3px;
+    width: 254px;
+    outline: 1px solid #3586ff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+body .container .vibor_kyrs .baton .buton button{
+    font-size: 16px;
+    color: white;
+    background-color: #3586ff;
+    padding: 20px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: 1px solid #3586ff;
+    transition: .5s;
+}
+body .container .vibor_kyrs .baton .buton button:hover{
+    background-color: #0066ff;
+    box-shadow: 0 0 30px #00e1ffc9;
+    transition: .3s;
+}
+
+body .container .free{
+    background-image: url(../img/5.jpg);
+    height: 492px;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+body .container .free h1{
+    font-size: 42px;
+    color: #07172e;
+    font-weight: 1000;
+    padding-top: 130px;
+    padding-left: 110px;
+}
+body .container .free p{
+    color: #07172e;
+    padding-left: 110px;
+    padding-top: 15px;
+    font-size: 18px;
+    width: 60%;
+    font-weight: 600;
+}
+body .container .free .baton{
+    padding-left: 110px;
+}
+body .container .free .baton .buton{
+    margin-top: 50px;
+    padding: 3px;
+    width: 254px;
+    outline: 1px solid #3586ff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+body .container .free .baton .buton button{
+    font-size: 16px;
+    color: white;
+    background-color: #3586ff;
+    padding: 20px 34px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: 1px solid #3586ff;
+    transition: .5s;
+}
+body .container .free .baton .buton button:hover{
+    background-color: #0066ff;
+    box-shadow: 0 0 30px #00e1ffc9;
+    transition: .3s;
+}
+
+body .container .online_kurs{
+    margin-top: 170px;
+}
+body .container .online_kurs .chast_1{
+    display: flex;
+}
+body .container .online_kurs .chast_1 .img img{
+    border-radius: 20px;
+}
+body .container .online_kurs .chast_1 .no_img{
+    padding-left: 50px;
+}
+body .container .online_kurs .chast_1 .no_img h2{
+    font-size: 16px;
+    color: #07172e;
+}
+body .container .online_kurs .chast_1 .no_img h1{
+    font-size: 42px;
+    color: #07172e;
+    font-weight: 900;
+}
+body .container .online_kurs .chast_1 .no_img p{
+    font-size: 18px;
+    color: #07172e;
+    font-weight: 500;
+}
+body .container .online_kurs .chast_1 .no_img .text{
+    margin-top: 15px;
+}
+body .container .online_kurs .chast_1 .no_img .ochenka{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+body .container .online_kurs .chast_1 .no_img .ochenka p{
+    font-size: 14px;
+    color: #07172e;
+    font-weight: 900;
+}
+body .container .online_kurs .chast_1 .no_img .ochenka .ranked{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+body .container .online_kurs .chast_1 .no_img .ochenka .vremya{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+body .container .online_kurs .chast_1 .no_img .pay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+body .container .online_kurs .chast_1 .no_img .pay .money{
+    font-size: 42px;
+    color: #07172e;
+    font-weight: 800;
+}
+body .container .online_kurs .chast_1 .no_img .pay .baton .buton{
+    padding: 4px;
+    width: 254px;
+    outline: 1px solid #3586ff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+body .container .online_kurs .chast_1 .no_img .pay .baton .buton button{
+    font-size: 16px;
+    color: white;
+    background-color: #3586ff;
+    padding: 20px 78px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: 1px solid #3586ff;
+    transition: .5s;
+}
+body .container .online_kurs .chast_1 .no_img .pay .baton .buton button:hover{
+    background-color: #0066ff;
+    box-shadow: 0 0 30px #00e1ffc9;
+    transition: .3s;
+}
+
+
+
+body .container .online_kurs .chast_2 .opisanie .perecluch .text{
+    font-size: 16px;
+    margin-top: 30px;
+    display: flex;
+}
+body .container .online_kurs .chast_2 .opisanie #input1:checked ~ .perecluch .text1, 
+#input2:checked ~ .perecluch .text2, #input3:checked ~ .perecluch .text3{
+    display: block;
+    display: flex;
+    justify-content: space-around;
+}
+body .container .online_kurs .chast_2 .opisanie label{
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+body .container .online_kurs .chast_2 .opisanie #input1:checked ~ #label1,
+#input2:checked ~ #label2, #input3:checked ~ #label3{
+    font-weight: 600;
+    color: white;
+    background-color: #3586ff;
+}
+body .container .online_kurs .chast_2 .opisanie input{
+    display: none;
+}
+body .container .online_kurs .chast_2 .opisanie .perecluch{
+    width: 100%;
+    overflow: hidden;
+}
+body .container .online_kurs .chast_2 .opisanie .perecluch .line_carousel{
+    width: 300%;
+    display: flex;
+}
+body .container .online_kurs .chast_2 .opisanie .perecluch .text{
+    width: calc(100%/3);
+    /*animation: carousel 10s ease-in-out alternate infinite;*/
+    transition: 1s;
+}
+
+body .container .online_kurs .chast_2 .opisanie #input1:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(0);
+}
+body .container .online_kurs .chast_2 .opisanie #input2:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(-100%);
+}
+body .container .online_kurs .chast_2 .opisanie #input3:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(-200%);
+}
+@keyframes carousel{
+    0%, 20%{
+        transform: translateX(0);
+    }
+    30%, 70%{
+        transform: translateX(-100%);
+    }
+    80%, 100%{
+        transform: translateX(-200%);
+    }
+}
+
+body .container .online_kurs .chast_2 .opisanie label{
+    font-size: 16px;
+    color: #07172e;
+    background-color: white;
+    font-weight: 600;
+    margin-right: 35px;
+    transition: 1s;
+}
+body .container .online_kurs .chast_2 .opisanie{
+    margin-top: 100px;
+}
+
+body .container .online_kurs .chast_2 .opisanie .kartochki .kartoshka{
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    width: 265px;
+    height: 265px;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body .container .online_kurs .chast_2 .opisanie .kartochki .kartoshka h1{
+    font-size: 16px;
+    color: #07172e;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    text-align:center;
+}
+body .container .online_kurs .chast_2 .opisanie .kartochki .kartoshka p{
+    font-size: 12px;
+    color: #07172e;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    text-align:center;
+}
+body .container .online_kurs .chast_2 .opisanie .kartochki .kartoshka:hover{
+    box-shadow: 0 0 30px #00e1ffc9;
+    transition: .3s;
+}
+body .container .online_kurs .chast_2 .opisanie .text_tyrms{
+    font-size: 16px;
+    color: #07172e;
+    font-weight: 900;
+}
+
+body .container .online_kurs .chast_2 .opisanie .kartochki{
+    display: flex;
+}
+body .container .online_kurs .chast_2 .opisanie .kartochki .kartoshka{
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+body .container .online_kurs .chast_2 .opisanie .kartochki .kartoshka3{
+    margin-right: 30px;
+}
+body .container .online_kurs .chast_2 .opisanie .text .img{
+    display: flex;
+    justify-content: center;
+}
+body .container .online_kurs .chast_2 .opisanie .text .img_tyrms img{
+    width: 250px;
+}
+body .container .online_kurs .chast_2 .opisanie .text .img_sk img{
+    width: 250px;
+}body .container .online_kurs .chast_2 .opisanie .text .img_da img{
+    width: 200px;
+}
+body .container .online_kurs .chast_2 .opisanie .text .img_stalin img{
+    width: 250px;
+}
+body .container .online_kurs .chast_2 .opisanie .text .img_sigma img{
+    width: 300px;
+}
+body .container .online_kurs .chast_2 .opisanie .text .img_friren img{
+    width: 200px;
+}
+body .container .online_kurs .chast_2 .opisanie{
+    margin-bottom: 100px;
+}
+
+
+body .platforma{
+    background-color: white;
+}
+body .platforma .container .fly{
+    display: flex;
+}
+body .platforma .container .fly .text_nadoelo{
+    margin-top: 150px;
+    margin-right: 80px;
+}
+body .platforma .container .fly .text_nadoelo h1{
+    font-size: 42px;
+    color: #07172e;
+    font-weight: 600;
+}
+body .platforma .container .fly .text_nadoelo p{
+    font-size: 18px;
+    color: #07172e;
+    font-weight: 600;
+    margin-top: 20px;
+}
+body .platforma .container .fly .img{
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+body .platforma .container .fly .text_nadoelo .baton .buton{
+    margin-top: 50px;
+    padding: 3px;
+    width: 254px;
+    outline: 1px solid #3586ff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+body .platforma .container .fly .text_nadoelo .baton .buton button{
+    font-size: 16px;
+    color: white;
+    background-color: #3586ff;
+    padding: 20px 67px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: 1px solid #3586ff;
+    transition: .5s;
+}
+body .platforma .container .fly .text_nadoelo .baton .buton button:hover{
+    background-color: #0066ff;
+    box-shadow: 0 0 30px #00e1ffc9;
+    transition: .3s;
+}
+
+body .container .rabota .h1{
+    font-size: 42px;
+    text-align: center;
+    color: #07172e;
+    margin-top: 120px;
+}
+body .container .rabota .rab{
+    display: flex;
+    margin-top: 70px;
+}
+body .container .rabota .rab h2{
+    font-size: 14px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    width: 58px;
+}
+body .container .rabota .rab h1{
+    font-size: 18px;
+    color: #07172e;
+    margin-top: 20px;
+    font-weight: 600;
+}
+body .container .rabota .rab p{
+    font-size: 16px;
+    color: #07172e;
+    margin-top: 15px;
+}
+body .container .rabota .rab .bloc{
+    padding-right: 30px;
+}
+
+
+body .container .negr{
+    background-color: #f0f3f5;
+    border-radius: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+body .container .negr h1{
+    font-size: 42px;
+    color:#07172e;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 120px;
+}
+body .container .negr .p{
+    font-size: 18px;
+    color:#07172e;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+}
+body .container .negr .obedenenie .anketa{
+    margin-left: 150px;
+}
+body .container .negr .obedenenie .anketa p, label{
+    font-size: 14px;
+    color: #07172e;
+}
+body .container .negr .baton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+body .container .negr .baton .buton{
+    margin-top: 50px;
+    padding: 3px;
+    width: 254px;
+    outline: 1px solid #3586ff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+body .container .negr .baton .buton button{
+    font-size: 16px;
+    color: white;
+    background-color: #3586ff;
+    padding: 20px 75px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: 1px solid #3586ff;
+    transition: .5s;
+}
+body .container .negr .baton .buton button:hover{
+    background-color: #0066ff;
+    box-shadow: 0 0 30px #00e1ffc9;
+    transition: .3s;
+}
+body .container .negr .anketa .name{
+    display: flex;
+    margin-top: 50px;
+}
+body .container .negr .anketa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body .container .negr .anketa p, label{
+    font-size: 14px;
+    color: #07172e;
+    font-weight: 600;
+}
+body .container .negr .anketa .name input{
+    border: 1px solid #dbdfe3;
+    border-radius: 5px;
+    padding: 15px 40px;
+    margin-top: 10px;
+}
+body .container .negr .anketa .name .ima{
+    margin-right: 40px;
+}
+body .container .negr .anketa .e-mail{
+    margin-top: 30px;
+}
+body .container .negr .anketa .e-mail p{
+    margin-right: 475px;
+}
+body .container .negr .anketa .e-mail input{
+    border: 1px solid #dbdfe3;
+    border-radius: 5px;
+    padding: 15px 40px;
+    margin-top: 10px;
+    width: 517px;
+}
+body .container .negr .anketa .input p{
+    margin-top: 30px;
+    margin-right: 450px;
+}
+body .container .negr .anketa .input input{
+    margin-top: 10px;
+}
+body .container .negr .anketa .input label{
+    margin-left: 10px;
+    margin-right: 12px;
+}
+
+
+footer{
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+footer .img{
+    display: flex;
+    align-items: center;
+}
+footer img{
+    margin-right: 30px;
+}
+
+
+
+
+@media  (max-width: 1570px){
+    .container{
+        width: 1024px !important;
+    }
+    body .container .online_kurs .chast_2 .opisanie .text{
+        flex-direction: column;
+    }
+    body .container .online_kurs .chast_2 .opisanie .kartochki{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    }
+    body .container .vibor_kyrs .kartochki .kartoshka{
+        width: 330px !important;
+    }
+}
+
+
+@media  (max-width: 1024px){
+    .container{
+        width: 98% !important;
+    }
+    footer{
+        width: 99%;
+    }
+    body .container .online_kurs .chast_2 .opisanie .text{
+        flex-direction: column;
+    }
+    body .container .online_kurs .chast_2 .opisanie .kartochki{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    }
+    body .container .online_kurs .chast_1 .no_img{
+        padding-left: 10px;
+    }
+    body .container .vibor_kyrs .kartochki .kartoshka{
+        width: 330px !important;
+    }
+}
+
+
+@media  (max-width: 780px){
+    .container{
+        width: 98% !important;
+    }
+    footer{
+        width: 99%;
+    }
+    body .platforma .container .fly{
+        flex-direction: column;
+    }
+    body .platforma .container .fly .img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    body .container .online_kurs .chast_2 .opisanie .text{
+        flex-direction: column;
+    }
+    body .container .online_kurs .chast_2 .opisanie .kartochki{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    }
+    body .container .online_kurs .chast_1{
+        flex-direction: column;
+    }
+    body .container .online_kurs .chast_1 .img img{
+        width: 99%;
+    }
+    body .container .online_kurs .chast_1 .no_img{
+        padding-left: 0;
+    }
+    body .container .free h1{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    body .container .free p{
+        padding-left: 20px;
+    }
+    body .container .free .baton{
+        padding-left: 20px;
+    }
+    body .container .vibor_kyrs .kartochki{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    body .container .vibor_kyrs .kartochki .kartoshka{
+        margin-top: 15px;
+    }
+    body .container .fitnes .img img{
+        width: 100%;
+        margin-top: 60px;
+    }
+    body .container .fitnes .text h1{
+        width: 70%;
+    }
+    body .container .fitnes .text p{
+        width: 70%;
+    }
+    body .container .fitnes .text{
+        width: 70%;
+    }
+}
+
+
+@media  (max-width: 540px){
+    .container{
+        width: 98% !important;
+    }
+    footer{
+        flex-direction: column;
+        width: 90%;
+    }
+    body .container .negr .anketa .input p{
+        margin-right: 0px;
+    }
+    body .container .negr .anketa .e-mail input{
+        width: 100%;
+    }
+    body .container .negr .anketa .e-mail p{
+        margin-right: 0px;
+    }
+    body .container .negr .anketa .name .ima{
+        margin-right: 0px;
+    }
+    body .container .negr .anketa .name{
+        flex-direction: column;
+    }
+    body .container .rabota .rab{
+        flex-direction: column;
+    }
+    body .container .rabota .rab .bloc{
+        margin-top: 20px;
+    }
+    body .platforma .container .fly{
+        flex-direction: column;
+    }
+    body .platforma .container .fly .img img{
+        width: 99%;
+        display: flex;
+        align-items: center;
+    }
+    body .platforma .container .fly .img{
+        display: flex;
+        align-items: center;
+    }
+    body .container .online_kurs .chast_2 .opisanie .perecluch .text{
+        flex-direction: column;
+    }
+    body .container .online_kurs .chast_2 .opisanie .kartochki{
+        flex-direction: column;
+    }
+    body .container .online_kurs .chast_2 .opisanie label{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center
+    }
+    body .container .online_kurs .chast_1{
+        flex-direction: column;
+    }
+    body .container .online_kurs .chast_1 .img img{
+        width: 99%;
+    }
+    body .container .online_kurs .chast_1 .no_img{
+        padding-left: 0;
+    }
+    body .container .free h1{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    body .container .free p{
+        padding-left: 20px;
+    }
+    body .container .free .baton{
+        padding-left: 20px;
+    }
+    body .container .vibor_kyrs .kartochki{
+        flex-direction: column;
+    }
+    body .container .vibor_kyrs .kartochki .kartoshka{
+        margin-top: 15px;
+    }
+    body .container .fitnes{
+        flex-direction: column;
+    }
+    body .container .fitnes .img img{
+        width: 99%;
+        margin-top: 60px;
+    }
+}
+
+
+@media  (max-width: 320px){
+    .container{
+        width: 98% !important;
+    }
+    footer{
+        flex-direction: column;
+        width: 90%;
+    }
+    body .container .negr .anketa .input p{
+        margin-right: 0px;
+    }
+    body .container .negr .anketa .e-mail input{
+        width: 100%;
+    }
+    body .container .negr .anketa .e-mail p{
+        margin-right: 0px;
+    }
+    body .container .negr .anketa .name .ima{
+        margin-right: 0px;
+    }
+    body .container .negr .anketa .name{
+        flex-direction: column;
+    }
+    body .container .negr h1{
+        font-size: 36px;
+    }
+    body .container .rabota .rab{
+        flex-direction: column;
+    }
+    body .container .rabota .rab .bloc{
+        margin-top: 20px;
+    }
+    body .platforma .container .fly{
+        flex-direction: column;
+    }
+    body .platforma .container .fly .img img{
+        width: 99%;
+        display: flex;
+        align-items: center;
+    }
+    body .platforma .container .fly .img{
+        display: flex;
+        align-items: center;
+    }
+    body .container .online_kurs .chast_2 .opisanie .perecluch .text{
+        flex-direction: column;
+    }
+    body .container .online_kurs .chast_2 .opisanie .kartochki{
+        flex-direction: column;
+    }
+    body .container .online_kurs .chast_2 .opisanie label{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center
+    }
+    body .container .online_kurs .chast_1{
+        flex-direction: column;
+    }
+    body .container .online_kurs .chast_1 .img img{
+        width: 99%;
+    }
+    body .container .online_kurs .chast_1 .no_img{
+        padding-left: 0;
+    }
+    body .container .online_kurs .chast_1 .no_img .ochenka p{
+        font-size: 11px;
+    }
+    body .container .online_kurs .chast_1 .no_img .pay .baton .buton button{
+        padding: 10px 40px;
+    }
+    body .container .online_kurs .chast_1 .no_img .pay .baton .buton{
+        width: 150px;
+    }
+    body .container .free h1{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    body .container .free p{
+        padding-left: 20px;
+    }
+    body .container .free .baton{
+        padding-left: 20px;
+    }
+    body .container .vibor_kyrs .kartochki{
+        flex-direction: column;
+    }
+    body .container .vibor_kyrs .kartochki .kartoshka{
+        margin-top: 15px;
+    }
+    body .container .fitnes{
+        flex-direction: column;
+    }
+    body .container .fitnes .img img{
+        width: 99%;
+        margin-top: 60px;
+    }
+}
